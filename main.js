@@ -4,7 +4,13 @@
 // console.log(headImg["src"]);
 
 function changeSrc(el, src) {
-    const elem = document.getElementById(el);
-    console.log(elem.src);
-    elem.src = src;
+
+    $(`#${el}`)
+        .fadeOut(200, function() {
+            $(`#${el}`).attr('src',src);
+            $(`#${el}`).on('load', function(){
+                $(`#${el}`).fadeTo(1000,.9, 'swing');
+            });
+        });
+
 }
