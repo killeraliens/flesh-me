@@ -17,18 +17,16 @@
       <menu >
         <h1>HEADS</h1>
         <div class="menu-heads">
-           <img src="./assets/head-brit.png" alt="the head of britney spears">
-           <img src="./assets/head-nick.png" alt="the head of nick cage">
-           <img src="./assets/head-brit.png" alt="the head of britney spears">
-           <img src="./assets/head-nick.png" alt="the head of nick cage">
-           <img src="./assets/head-brit.png" alt="the head of britney spears">
-           <img src="./assets/head-nick.png" alt="the head of nick cage">
-        </div>
+                <button id="head-brit" onClick="changeSrc('head', './assets/head-brit-layer.png')" style="background-image: url('./assets/head-brit.png');" alt="the head of britney spears"></button>
+                <button id="head-nick" onClick="changeSrc('head', './assets/head-nick-layer.png')" style="background-image: url('./assets/head-nick.png');" alt="the head of nick cage"></button>
+                <!-- <img src="./assets/head-nick.png" alt="the head of nick cage"> -->
+             </div>
       </menu>
       <aside role="presentation">
         <img id="skeleton" src="./assets/skeleman.png" alt="the skeleton">
-        <img class="layer" src="./assets/head-brit-layer.png" alt="britneys head is layered">
+        <img id="head" class="layer" src="./assets/head-brit-layer.png" alt="britneys head is layered">
       </aside>
     </main>
+    <script src="./main.js"></script>
 </body>
 </html>
