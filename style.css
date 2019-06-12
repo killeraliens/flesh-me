@@ -65,7 +65,7 @@ menu h1 {
     /* width: inherit; */
 }
 
-menu button {
+menu button, menu input {
     width: 80px;
     height: 80px;
     background-size: contain;
