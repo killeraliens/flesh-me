@@ -104,3 +104,7 @@ aside {
 .no-opacity {
     opacity: 0;
 }
+
+.shrink-text {
+  font-size: 14px;
+}
