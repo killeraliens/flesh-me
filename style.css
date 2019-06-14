@@ -108,3 +108,9 @@ aside {
 .shrink-text {
   font-size: 14px;
 }
+
+@media screen and (max-width: 700px) {
+  main {
+    height: 80%;
+  }
+}
