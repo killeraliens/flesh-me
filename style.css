@@ -111,7 +111,7 @@ aside {
 
 @media screen and (max-width: 400px) {
   body {
-    /* height: calc(100vh - 90px); */
-    padding-bottom: 20px;
+    height: calc(100% - 20px);
+    /* padding-bottom: 20px; */
   }
 }
